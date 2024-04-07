@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:hapticFeedbackEnabled="true"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="532dp"
+        android:layout_height="86dp"
+        android:background="@drawable/input_bg"
+        android:paddingLeft="90sp"
+        android:paddingTop="10sp"
+        android:text="Send Mail"
+        android:textColor="#EFEFEF"
+        android:textColorHint="#C36666"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/show_mail"
+        android:layout_width="258dp"
+        android:layout_height="30dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <Button
+        android:id="@+id/Logout_btn"
+        android:layout_width="83dp"
+        android:layout_height="34dp"
+        android:backgroundTint="#D4D4D2"
+        android:text="Logout"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <Button
+        android:id="@+id/Btn_home"
+        android:layout_width="83dp"
+        android:layout_height="34dp"
+        android:backgroundTint="#D4D4D2"
+        android:text="Home"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <EditText
+        android:id="@+id/Subject"
+        android:layout_width="380dp"
+        android:layout_height="56dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="Subject"
+        android:inputType="text"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="380dp"
+        android:layout_height="56dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:ems="10"
+        android:hint=" Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        app:barrierMargin="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <EditText
+        android:id="@+id/Content"
+        android:layout_width="380dp"
+        android:layout_height="450dp"
+        android:background="@drawable/info2"
+        android:ems="10"
+        android:fadingEdge="vertical"
+        android:fadingEdgeLength="10sp"
+        android:hint="Content"
+        android:inputType="text"
+        android:outlineProvider="paddedBounds"
+        android:padding="20sp"
+        android:requiresFadingEdge="horizontal|vertical"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textDirection="firstStrongRtl"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/hello"
+        app:layout_constraintVertical_bias="0.714" />
+
+    <Button
+        android:id="@+id/Btn_senmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#505050"
+        android:text="Button"
+        android:textColor="#F6F6F6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/hello"
+        app:layout_constraintVertical_bias="0.95" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

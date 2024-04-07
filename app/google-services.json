@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "547088574763",
+    "project_id": "health-is-wealth-1f9e5",
+    "storage_bucket": "health-is-wealth-1f9e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547088574763:android:dbf0bd3000c0c77b7dbd6e",
+        "android_client_info": {
+          "package_name": "com.example.healthiswealth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACjyhLkVU3xly3u2W-jAA75-NSs-uNOh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
